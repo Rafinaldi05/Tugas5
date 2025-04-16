@@ -36,7 +36,8 @@ class LoginActivity : AppCompatActivity() {
             .requestIdToken(getString(R.string.default_web_client_id))
             .requestEmail()
             .build()
-        Log.d(TAG, "onCreate: GoogleSignInOptions set up")
+
+        val googleSignInClient = GoogleSignIn.getClient(this, googleSignInOptions)
 
         auth = FirebaseAuth.getInstance()
         loginButton = findViewById(R.id.login_button)

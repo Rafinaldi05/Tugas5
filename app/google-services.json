@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "704271030100-vujnatafabp8k6vojslssf2di0467gm5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tugas5",
+            "certificate_hash": "806c532cfbff13115d00bc0dbb9401d2b60e6c3f"
+          }
+        },
+        {
           "client_id": "704271030100-9lore41ndp7atq5hr0jbl9dkspvdfsbd.apps.googleusercontent.com",
           "client_type": 3
         }
