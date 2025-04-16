@@ -26,7 +26,6 @@ class HomeActivity : AppCompatActivity() {
         userEmailText = findViewById(R.id.user_email_text)
         dataStore = UserDataStore(this)
 
-        // Menggunakan lifecycleScope untuk mengakses data suspend
         lifecycleScope.launch {
             dataStore.getUserData().collect { userData ->
                 userNameText.text = "Name: ${userData.first}"
@@ -43,7 +42,6 @@ class HomeActivity : AppCompatActivity() {
         val auth = FirebaseAuth.getInstance()
         auth.signOut()
 
-        // Clear data secara async
         lifecycleScope.launch {
             dataStore.clearUserData()
             startActivity(Intent(this@HomeActivity, LoginActivity::class.java))

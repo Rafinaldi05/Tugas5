@@ -31,7 +31,6 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
         Log.d(TAG, "onCreate: LoginActivity started")
 
-        // Setup Google Sign In
         googleSignInOptions = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id))
             .requestEmail()
