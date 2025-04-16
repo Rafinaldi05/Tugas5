@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "704271030100",
+    "project_id": "tugas5-53ef4",
+    "storage_bucket": "tugas5-53ef4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704271030100:android:14457b958fea2e92ce9ac1",
+        "android_client_info": {
+          "package_name": "com.example.tugas5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704271030100-9lore41ndp7atq5hr0jbl9dkspvdfsbd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKIHN9WKx6dqOo_ZUDn9pba6Oqzi6OD3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704271030100-9lore41ndp7atq5hr0jbl9dkspvdfsbd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
